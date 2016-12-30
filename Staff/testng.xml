@@ -7,7 +7,7 @@
 <classes>
 	<class name="test.Gurukul">
 	    <!-- <methods>
-		    <include name="test_searchAndClickPageButton"/>
+		    <include name="test_accountSettings"/>
 		    <include name="test_login"/>
 	    </methods> -->
     </class>

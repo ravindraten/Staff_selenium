@@ -90,6 +90,7 @@ public class CommonFunctions {
 		  entitiesButton.click();
 	}
 	
+	
 	public void clickAccountsButton(){
 	WebElement accountButton =driver.findElement(By.cssSelector(".dropdown-toggle span[translate=\"global.menu.account.main\"]"));
 	  accountButton.click();
@@ -136,5 +137,10 @@ public class CommonFunctions {
 		WebElement logout =driver.findElement(By.cssSelector(".ng-scope [translate=\"global.menu.account.logout\"]"));
 		clickAccountsButton();
 		logout.click();
+	}
+	
+	public void settings(){
+		WebElement settings =driver.findElement(By.cssSelector(".ng-scope [translate=\"global.menu.account.settings\"]"));
+		settings.click();
 	}
 }

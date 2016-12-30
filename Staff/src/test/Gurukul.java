@@ -350,6 +350,23 @@ public void test_searchAndClickPageButton() throws InterruptedException{
 }
 
 @Test(priority=12)
+public void test_accountSettings() throws InterruptedException{
+	clickAccountsButton();
+	settings();
+	Thread.sleep(3000);
+	String val = driver.findElement(By.cssSelector(".form-control[ng-model=\"settingsAccount.firstName\"]")).getAttribute("value");
+	Assert.assertTrue(val.contains("Administrator"), "The value doesnt match the actual value is "+val+" but expected was Administrator");
+	
+	String val1 = driver.findElement(By.cssSelector(".form-control[ng-model=\"settingsAccount.lastName\"]")).getAttribute("value");
+	Assert.assertTrue(val1.contains("Administrator"), "The value doesnt match the actual value is "+val1+" but expected was Administrator");
+	
+	String val2 = driver.findElement(By.cssSelector(".form-control[ng-model=\"settingsAccount.email\"]")).getAttribute("value");
+	Assert.assertTrue(val2.contains("admin@localhost"), "The value doesnt match the actual value is "+val2+" but expected was admin@localhost");
+	
+}
+
+
+@Test(priority=13)
 public void test_logout(){
 	System.out.println("The test_logout is running");
 	  logout();

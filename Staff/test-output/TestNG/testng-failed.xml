@@ -4,13 +4,13 @@
   <parameter name="hub" value="localhost"/>
   <parameter name="port" value="4444"/>
   <test name="test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="test.Gurukul">
         <methods>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="test_searchAndClickPageButton"/>
+          <include name="test_accountSettings"/>
         </methods>
       </class> <!-- test.Gurukul -->
     </classes>
