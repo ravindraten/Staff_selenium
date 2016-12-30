@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" verbose="1">
+    <parameter name="hub" value="localhost" />
+	<parameter name="port" value="4444" />
+<test name="test">
+    <parameter name="browser" value="firefox" /><!-- firefox,chrome,MicrosoftEdge -->
+<classes>
+	<class name="test.Gurukul">
+	    <!-- <methods>
+		    <include name="test_searchAndClickPageButton"/>
+		    <include name="test_login"/>
+	    </methods> -->
+    </class>
+</classes>
+</test>
+</suite>
