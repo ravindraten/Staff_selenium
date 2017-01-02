@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="12" total="14" passed="2">
+<testng-results skipped="0" failed="6" ignored="0" total="50" passed="44">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG" duration-ms="20359" started-at="2016-12-30T10:01:02Z" finished-at="2016-12-30T10:01:23Z">
+  <suite name="TestNG" duration-ms="291866" started-at="2017-01-02T04:58:10Z" finished-at="2017-01-02T05:03:01Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="20359" started-at="2016-12-30T10:01:02Z" finished-at="2016-12-30T10:01:23Z">
+    <test name="test" duration-ms="291866" started-at="2017-01-02T04:58:10Z" finished-at="2017-01-02T05:03:01Z">
       <class name="test.Gurukul">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.Gurukul@5622fdf]" name="beforeTest" is-config="true" duration-ms="5386" started-at="2016-12-30T15:31:02Z" finished-at="2016-12-30T15:31:08Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.Gurukul@6a41eaa2]" name="beforeTest" is-config="true" duration-ms="7828" started-at="2017-01-02T10:28:10Z" finished-at="2017-01-02T10:28:17Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,1175 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test_login()[pri:1, instance:test.Gurukul@5622fdf]" name="test_login" duration-ms="10963" started-at="2016-12-30T15:31:08Z" finished-at="2016-12-30T15:31:19Z">
+        <test-method status="PASS" signature="test_registerNewUser()[pri:0, instance:test.Gurukul@6a41eaa2]" name="test_registerNewUser" duration-ms="1249" started-at="2017-01-02T10:28:17Z" finished-at="2017-01-02T10:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_registerNewUser -->
+        <test-method status="PASS" signature="test_login()[pri:1, instance:test.Gurukul@6a41eaa2]" name="test_login" duration-ms="10728" started-at="2017-01-02T10:28:19Z" finished-at="2017-01-02T10:28:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login -->
-        <test-method status="PASS" signature="test_accountSettings()[pri:12, instance:test.Gurukul@5622fdf]" name="test_accountSettings" duration-ms="3391" started-at="2016-12-30T15:31:19Z" finished-at="2016-12-30T15:31:22Z">
+        <test-method status="PASS" signature="test_validateMenuBarItems()[pri:2, instance:test.Gurukul@6a41eaa2]" name="test_validateMenuBarItems" duration-ms="137" started-at="2017-01-02T10:28:29Z" finished-at="2017-01-02T10:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_validateMenuBarItems -->
+        <test-method status="PASS" signature="test_validateEntitiesDropdownItems()[pri:3, instance:test.Gurukul@6a41eaa2]" name="test_validateEntitiesDropdownItems" duration-ms="254" started-at="2017-01-02T10:28:30Z" finished-at="2017-01-02T10:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_validateEntitiesDropdownItems -->
+        <test-method status="PASS" signature="test_validateAccountDropdownItems()[pri:4, instance:test.Gurukul@6a41eaa2]" name="test_validateAccountDropdownItems" duration-ms="343" started-at="2017-01-02T10:28:30Z" finished-at="2017-01-02T10:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_validateAccountDropdownItems -->
+        <test-method status="PASS" signature="test_createBranches(java.lang.String, java.lang.String)[pri:5, instance:test.Gurukul@6a41eaa2]" name="test_createBranches" duration-ms="7122" started-at="2017-01-02T10:28:30Z" data-provider="Branch" finished-at="2017-01-02T10:28:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BrancOne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BB1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createBranches -->
+        <test-method status="PASS" signature="test_createBranches(java.lang.String, java.lang.String)[pri:5, instance:test.Gurukul@6a41eaa2]" name="test_createBranches" duration-ms="6901" started-at="2017-01-02T10:28:37Z" data-provider="Branch" finished-at="2017-01-02T10:28:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BranchTwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BB2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createBranches -->
+        <test-method status="PASS" signature="test_createBranches(java.lang.String, java.lang.String)[pri:5, instance:test.Gurukul@6a41eaa2]" name="test_createBranches" duration-ms="6936" started-at="2017-01-02T10:28:44Z" data-provider="Branch" finished-at="2017-01-02T10:28:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BranchThree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BB3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createBranches -->
+        <test-method status="PASS" signature="test_createBranches(java.lang.String, java.lang.String)[pri:5, instance:test.Gurukul@6a41eaa2]" name="test_createBranches" duration-ms="9086" started-at="2017-01-02T10:28:51Z" data-provider="Branch" finished-at="2017-01-02T10:29:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BranchFour]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BB4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createBranches -->
+        <test-method status="FAIL" signature="test_createStaff(java.lang.String, java.lang.String)[pri:6, instance:test.Gurukul@6a41eaa2]" name="test_createStaff" duration-ms="6351" started-at="2017-01-02T10:29:00Z" data-provider="Staff" finished-at="2017-01-02T10:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffOne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The Branch is not created expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The Branch is not created expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.Gurukul.test_createStaff(Gurukul.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createStaff -->
+        <test-method status="FAIL" signature="test_searchStaffAndDelete()[pri:7, instance:test.Gurukul@6a41eaa2]" name="test_searchStaffAndDelete" duration-ms="2507" started-at="2017-01-02T10:29:07Z" finished-at="2017-01-02T10:29:09Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The Branch searched is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The Branch searched is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.Gurukul.test_searchStaffAndDelete(Gurukul.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_searchStaffAndDelete -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5862" started-at="2017-01-02T10:29:09Z" data-provider="StaffAdd" finished-at="2017-01-02T10:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5962" started-at="2017-01-02T10:29:15Z" data-provider="StaffAdd" finished-at="2017-01-02T10:29:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6043" started-at="2017-01-02T10:29:21Z" data-provider="StaffAdd" finished-at="2017-01-02T10:29:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5870" started-at="2017-01-02T10:29:27Z" data-provider="StaffAdd" finished-at="2017-01-02T10:29:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5940" started-at="2017-01-02T10:29:33Z" data-provider="StaffAdd" finished-at="2017-01-02T10:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6017" started-at="2017-01-02T10:29:39Z" data-provider="StaffAdd" finished-at="2017-01-02T10:29:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6118" started-at="2017-01-02T10:29:45Z" data-provider="StaffAdd" finished-at="2017-01-02T10:29:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6055" started-at="2017-01-02T10:29:51Z" data-provider="StaffAdd" finished-at="2017-01-02T10:29:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6068" started-at="2017-01-02T10:29:57Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6097" started-at="2017-01-02T10:30:03Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffJ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5928" started-at="2017-01-02T10:30:09Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5974" started-at="2017-01-02T10:30:15Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5962" started-at="2017-01-02T10:30:21Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6033" started-at="2017-01-02T10:30:27Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6011" started-at="2017-01-02T10:30:33Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6120" started-at="2017-01-02T10:30:39Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5956" started-at="2017-01-02T10:30:45Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6535" started-at="2017-01-02T10:30:51Z" data-provider="StaffAdd" finished-at="2017-01-02T10:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6033" started-at="2017-01-02T10:30:58Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6072" started-at="2017-01-02T10:31:04Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5924" started-at="2017-01-02T10:31:10Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5913" started-at="2017-01-02T10:31:16Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5944" started-at="2017-01-02T10:31:22Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffV]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5919" started-at="2017-01-02T10:31:28Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5972" started-at="2017-01-02T10:31:33Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6178" started-at="2017-01-02T10:31:39Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6037" started-at="2017-01-02T10:31:46Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5956" started-at="2017-01-02T10:31:52Z" data-provider="StaffAdd" finished-at="2017-01-02T10:31:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5974" started-at="2017-01-02T10:31:58Z" data-provider="StaffAdd" finished-at="2017-01-02T10:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffBB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6074" started-at="2017-01-02T10:32:04Z" data-provider="StaffAdd" finished-at="2017-01-02T10:32:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffCC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="6049" started-at="2017-01-02T10:32:10Z" data-provider="StaffAdd" finished-at="2017-01-02T10:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffDD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5970" started-at="2017-01-02T10:32:16Z" data-provider="StaffAdd" finished-at="2017-01-02T10:32:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5995" started-at="2017-01-02T10:32:22Z" data-provider="StaffAdd" finished-at="2017-01-02T10:32:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffFF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_staffAdd(java.lang.String, java.lang.String)[pri:8, instance:test.Gurukul@6a41eaa2]" name="test_staffAdd" duration-ms="5971" started-at="2017-01-02T10:32:28Z" data-provider="StaffAdd" finished-at="2017-01-02T10:32:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaffGG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BranchOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_staffAdd -->
+        <test-method status="PASS" signature="test_pagination()[pri:9, instance:test.Gurukul@6a41eaa2]" name="test_pagination" duration-ms="10701" started-at="2017-01-02T10:32:34Z" finished-at="2017-01-02T10:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_pagination -->
+        <test-method status="FAIL" signature="test_searchBranchAndDelete()[pri:10, instance:test.Gurukul@6a41eaa2]" name="test_searchBranchAndDelete" duration-ms="9294" started-at="2017-01-02T10:32:44Z" finished-at="2017-01-02T10:32:54Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (1009, 171). Other element would receive the click: <div class="modal-footer"></div>
+Command duration or timeout: 85 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Command duration or timeout: 2.20 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bc8d3449-dcb5-4d00-a5fa-b87891dcfa10, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bc8d3449-dcb5-4d00-a5fa-b87891dcfa10]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1009, 171). Other element would receive the click: <div class="modal-footer"></div>
+Command duration or timeout: 85 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Command duration or timeout: 2.20 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bc8d3449-dcb5-4d00-a5fa-b87891dcfa10, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bc8d3449-dcb5-4d00-a5fa-b87891dcfa10
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at common.CommonFunctions.clickSearch(CommonFunctions.java:123)
+	at test.Gurukul.test_searchBranchAndDelete(Gurukul.java:296)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 30 more
+Caused by: org.openqa.selenium.WebDriverException: Element is not clickable at point (1009, 171). Other element would receive the click: <div class="modal-footer"></div>
+Command duration or timeout: 85 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_searchBranchAndDelete -->
+        <test-method status="FAIL" signature="test_searchAndClickPageButton()[pri:11, instance:test.Gurukul@6a41eaa2]" name="test_searchAndClickPageButton" duration-ms="433" started-at="2017-01-02T10:32:54Z" finished-at="2017-01-02T10:32:54Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (1737, 26). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="modal fade in" id="deleteBranchConfirmation"></div>
+Command duration or timeout: 77 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Command duration or timeout: 414 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bc8d3449-dcb5-4d00-a5fa-b87891dcfa10, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bc8d3449-dcb5-4d00-a5fa-b87891dcfa10]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1737, 26). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="modal fade in" id="deleteBranchConfirmation"></div>
+Command duration or timeout: 77 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Command duration or timeout: 414 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bc8d3449-dcb5-4d00-a5fa-b87891dcfa10, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bc8d3449-dcb5-4d00-a5fa-b87891dcfa10
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at common.CommonFunctions.clickEntitiesButton(CommonFunctions.java:90)
+	at test.Gurukul.test_searchAndClickPageButton(Gurukul.java:324)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 30 more
+Caused by: org.openqa.selenium.WebDriverException: Element is not clickable at point (1737, 26). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="modal fade in" id="deleteBranchConfirmation"></div>
+Command duration or timeout: 77 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_searchAndClickPageButton -->
+        <test-method status="FAIL" signature="test_accountSettings()[pri:12, instance:test.Gurukul@6a41eaa2]" name="test_accountSettings" duration-ms="629" started-at="2017-01-02T10:32:54Z" finished-at="2017-01-02T10:32:55Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (1849, 26). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="modal fade in" id="deleteBranchConfirmation"></div>
+Command duration or timeout: 81 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Command duration or timeout: 585 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bc8d3449-dcb5-4d00-a5fa-b87891dcfa10, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bc8d3449-dcb5-4d00-a5fa-b87891dcfa10]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1849, 26). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="modal fade in" id="deleteBranchConfirmation"></div>
+Command duration or timeout: 81 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Command duration or timeout: 585 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bc8d3449-dcb5-4d00-a5fa-b87891dcfa10, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bc8d3449-dcb5-4d00-a5fa-b87891dcfa10
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at common.CommonFunctions.clickAccountsButton(CommonFunctions.java:96)
+	at test.Gurukul.test_accountSettings(Gurukul.java:354)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 30 more
+Caused by: org.openqa.selenium.WebDriverException: Element is not clickable at point (1849, 26). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="modal fade in" id="deleteBranchConfirmation"></div>
+Command duration or timeout: 81 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a6ae7a32-b1e9-4aec-8027-0907acb26a96
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_accountSettings -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.Gurukul@5622fdf]" name="afterMethod" is-config="true" duration-ms="595" started-at="2016-12-30T15:31:22Z" finished-at="2016-12-30T15:31:23Z">
+        <test-method status="FAIL" signature="test_logout()[pri:13, instance:test.Gurukul@6a41eaa2]" name="test_logout" duration-ms="4347" started-at="2017-01-02T10:32:55Z" finished-at="2017-01-02T10:32:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"css selector","selector":".hipster.img-responsive.img-rounded"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: driver.version: unknown
+Command duration or timeout: 4.35 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bc8d3449-dcb5-4d00-a5fa-b87891dcfa10, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bc8d3449-dcb5-4d00-a5fa-b87891dcfa10
+*** Element info: {Using=css selector, value=.hipster.img-responsive.img-rounded}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".hipster.img-responsive.img-rounded"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: driver.version: unknown
+Command duration or timeout: 4.35 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bc8d3449-dcb5-4d00-a5fa-b87891dcfa10, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bc8d3449-dcb5-4d00-a5fa-b87891dcfa10
+*** Element info: {Using=css selector, value=.hipster.img-responsive.img-rounded}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at common.CommonFunctions.logout(CommonFunctions.java:136)
+	at test.Gurukul.test_logout(Gurukul.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".hipster.img-responsive.img-rounded"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'INLN50944471A', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/I301122/AppData/Local/Temp/anonymous7115564859714498120webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/I301122/AppData/Local/Temp/anonymous7115564859714498120webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_logout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.Gurukul@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="2363" started-at="2017-01-02T10:32:59Z" finished-at="2017-01-02T10:33:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

@@ -35,7 +35,7 @@ public class Gurukul extends CommonFunctions{
 	  clickRegisterNewAccount();
 	  WebElement error = driver.findElement(By.cssSelector(".alert.alert-danger.ng-scope[ translate=\"register.messages.error.fail\"]"));
 	  String errormsg = "Registration failed! Please try again later.";
-	  Assert.assertTrue(errormsg.equalsIgnoreCase(error.getAttribute("innerText")));
+	  Assert.assertTrue(errormsg.equalsIgnoreCase(error.getAttribute("innerText")),"The error message is not displayed");
 	  System.out.println("The error message displayed is "+error.getAttribute("innerText"));
 	  System.out.println("The test_registerNewUser is ended");
   }
@@ -144,9 +144,9 @@ public class Gurukul extends CommonFunctions{
 	  clickEntitiesButton();
 	  clickStaffLink();
 	  clickCreateStaff();
-	  Thread.sleep(1000);
+	  Thread.sleep(2000);
 	  driver.findElement(By.xpath(".//*[@id='saveStaffModal'] //input[@name='name']")).click();
-	  Thread.sleep(1000);
+	  Thread.sleep(2000);
 	  driver.findElement(By.xpath(".//*[@id='saveStaffModal'] //input[@name='name']")).sendKeys(StaffName);
 	  Thread.sleep(1000);
 	  WebElement mySelectElement = driver.findElement(By.xpath(".//*[@id='saveStaffModal'] //select")); //[@name='related_branch']
@@ -154,10 +154,10 @@ public class Gurukul extends CommonFunctions{
 	  mySelectElement.click();
 	  mySelectElement.sendKeys(Keys.ARROW_DOWN);
 	  mySelectElement.sendKeys(Keys.ENTER);
-	  Thread.sleep(1000);
+	  Thread.sleep(2000);
 	  
 	  driver.findElement(By.xpath(".//*[@id='saveStaffModal']//button [@type='submit']")).click();
-	  Thread.sleep(1000);
+	  Thread.sleep(2000);
 	  
 	  Assert.assertTrue((driver.findElement(By.cssSelector("tbody")).getAttribute("innerText")).contains(BranchName),"The Branch is not created");
 	  System.out.println("The test_createStaff is ended");
