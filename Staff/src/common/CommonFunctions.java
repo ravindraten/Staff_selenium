@@ -45,8 +45,18 @@ public class CommonFunctions {
 				    driver.manage().deleteAllCookies();
 				    driver.get("http://127.0.0.1:8080");
 				    driver.manage().window().maximize();
+				    driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);  
+				}else if (browserName.equalsIgnoreCase("internet_explorer")) {
+					System.setProperty("webdriver.ie.driver","C:\\Windows\\IEDriverServer.exe");
+					//driver = new ChromeDriver();
+					capability = DesiredCapabilities.internetExplorer();
+					driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
+				    driver.manage().deleteAllCookies();
+				    driver.get("http://127.0.0.1:8080");
+				    driver.manage().window().maximize();
 				    driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-				} else if (browserName.equalsIgnoreCase("MicrosoftEdge")) {
+				   
+				}else if (browserName.equalsIgnoreCase("MicrosoftEdge")) {
 					//System.setProperty("webdriver.ie.driver","C:\\Windows\\IEDriverServer.exe");
 					System.setProperty("webdriver.edge.driver","C:\\Program Files (x86)\\Microsoft Web Driver\\MicrosoftWebDriver.exe");
 					//driver = new InternetExplorerDriver();
